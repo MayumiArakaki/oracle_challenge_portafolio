@@ -1,0 +1,177 @@
+header{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto;
+} 
+
+.nombre{
+    color: rgba(70, 70, 70, 1);
+    width: 150px;
+    height: 19px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    gap:5px
+}
+
+header p a{
+    color: rgba(70, 70, 70, 1);
+    text-decoration: none;
+    width: 140px;
+    height: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+body{
+    background-color:#E5E5E5;
+}
+
+.presentacion{
+    margin: 16px;
+}
+.presentacionRedes {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    margin: 16px 0 16px 0;
+}
+
+h1 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    align-self: stretch;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    margin: 16px;
+    align-self: stretch;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: stretch;
+    margin: 0 0 8px 0;
+}
+
+.sobreMi{
+    background: rgba(234, 242, 253, 1);
+}
+
+.sobreMi_descripcion{
+    margin: 16px;
+}
+
+.p{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    color: #464646;
+    
+}
+
+.lenguajes{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    margin: 16px;
+}
+
+.lenguajeIcons{
+    background-color:rgba(255, 255, 255, 1);
+    width: 145px;
+    height: 118px;
+}
+
+.hobbiesGeneral{
+    display: flex;
+    flex-wrap: wrap;
+    gap:16px;
+    margin: 16px;
+}
+
+.hobbieIcons{
+    background-color:rgba(255, 255, 255, 1);
+    width: 145px;
+    height: 118px;
+}
+
+.formacionAcademica{
+    background: rgba(234, 242, 253, 1);
+    font-family: 'Raleway';
+}
+
+.formaciones{
+    margin: 0 32px 0 32px;
+}
+
+.formacion{
+    margin: 16px 0 16px 0;
+}
+
+.formacion img{
+    background-color:rgba(255, 255, 255, 1);
+    width: 275px;
+    height: 118px;
+    justify-content: center;
+    margin: 8px 0 8px 0;
+}
+
+.experienciaProfesional{
+    font-family: 'Raleway';
+}
+
+.experiencias{
+    margin: 0 20px 0 20px;
+}
+
+.experiencia img{
+    margin: 16px 0 8px 0;
+}
+
+.experiencia p{
+    margin: 8px 0 8px 0;
+}
+
+.experienciaBoton {
+    display: flex;
+}
+
+.boton {
+    display: flex;
+    margin: 8px 8px 8px 0;
+}
+
+.form{
+    background: rgba(234, 242, 253, 1)
+}
+
+.form {
+    background: rgba(234, 242, 253, 1)
+}

@@ -1,0 +1,68 @@
+.experiencia{
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.experiencia__challenge{
+    margin-top: 1rem;
+}
+
+.experiencia__informacion{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 1rem 3.4rem;
+    text-align: left;
+}
+
+.experiencia__boton{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    margin: 0 3.4rem 2rem;
+}
+
+.boton__repositorio button{
+    width: 10.8rem;
+    height: 4rem;
+    border-color: var(--colorCuatro);
+    border-width: thin;
+    color: var(--colorCuatro);
+}
+
+.boton__demo button{
+    width: 9.6rem;
+    height: 4rem;
+    background-color: var(--colorCuatro);
+    border-width: thin;
+    color: var(--colorTerciario);
+}
+
+@media  only screen and (min-width: 768px) {
+    .experiencia__imagen img{
+        width: 70.4rem;
+    }
+}
+
+@media  only screen and (min-width: 1024px) {
+    .experiencia__contenedor{
+        margin:0 3.6rem;
+    }
+    .experiencia__challenge{
+        display: flex;
+        align-items: center;
+        padding: 3rem;
+    }
+    .experiencia__challenge--reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 3rem;
+    }
+    .experiencia__imagen{
+        width: 70%;
+    }
+    .experiencia__imagen img{
+        width: 65rem;
+    }
+}

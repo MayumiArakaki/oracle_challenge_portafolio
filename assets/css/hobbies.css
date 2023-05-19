@@ -1,0 +1,68 @@
+.hobbies{
+    padding: 1rem;
+    text-align: center;
+}
+
+.hobbiesGeneral{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.6rem;
+    justify-content: center;
+    margin: 1.6rem auto 0 auto;
+}
+
+.hobbieIcons{
+    background-color: var(--colorCinco);
+    width: 15.6rem;
+    height: 11.8rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.hobbieIcons p{
+    text-align: initial;
+    width: 12.4rem;
+    height: 1.9rem;
+}
+
+@media  only screen and (min-width: 768px) {
+    .hobbies{
+        padding: 2rem 3.8rem;
+    }
+    .hobbiesGeneral{
+        text-align: initial;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: initial;
+    }
+    .hobbieIcons{
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+    }
+}
+
+@media  only screen and (min-width: 1024px) {
+    .hobbies{
+        padding: 2rem 6rem;
+    }
+    .hobbiesGeneral{
+        text-align: initial;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .hobbieIcons{
+        display: flex;
+        flex-direction: column;
+        padding: initial;
+        align-items:flex-start;
+        justify-content: flex-end;
+        padding: 1rem;
+    }
+}

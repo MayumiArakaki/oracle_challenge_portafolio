@@ -1,0 +1,46 @@
+.presentacion {
+    padding: 1rem;
+}
+
+.presentacion__texto{
+    margin: 1rem auto;  
+}
+
+.presentacion__enlaces{
+    display: flex;
+    font-size: 1.4rem;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+@media  only screen and (min-width: 768px) {
+    .presentacion {
+        padding: initial;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: start;
+    }
+    .presentacion__imagen{
+        width: 25%;
+    }
+    .presentacion__imagen img{
+        width: 14.6rem;
+    }
+    .presentacion__texto{
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+}
+
+@media  only screen and (min-width: 1024px){
+    .presentacion__imagen img{
+        width: 22.5rem;
+    }
+    .presentacion__enlaces{
+        justify-content: flex-start;
+        gap: 1rem;
+    }
+}

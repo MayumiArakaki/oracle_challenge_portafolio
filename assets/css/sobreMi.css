@@ -1,0 +1,19 @@
+.sobreMi{
+    background-color: var(--colorTerciario);
+    padding: 1rem;
+}
+
+.sobreMi__descripcion{
+    margin-top: 1rem;
+}
+
+@media  only screen and (min-width: 768px) {
+    .sobreMi{
+        padding: 2rem 3.8rem;
+    }
+}
+@media  only screen and (min-width: 1024px) {
+    .sobreMi{
+        padding: 2rem 6rem;
+    }
+}

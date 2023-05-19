@@ -1,0 +1,68 @@
+.skills{
+    padding: 1rem;
+    text-align: center;
+}
+
+.lenguajes{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.6rem;
+    justify-content: center;
+    margin: 1.6rem auto 0 auto;
+}
+
+.lenguajeIcons{
+    background-color: var(--colorCinco);
+    width: 15.6rem;
+    height: 11.8rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.lenguajeIcons p{
+    text-align: initial;
+    width: 12.4rem;
+    height: 1.9rem;
+}
+
+@media  only screen and (min-width: 768px) {
+    .skills{
+        padding: 2rem 3.8rem;
+    }
+    .lenguajes{
+        text-align: initial;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: initial;
+    }
+    .lenguajeIcons{
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+        align-items:flex-start;
+        justify-content: center;
+    }
+}
+
+@media  only screen and (min-width: 1024px) {
+    .skills{
+        padding: 2rem 6rem;
+    }
+    .lenguajes{
+        text-align: initial;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .lenguajeIcons{
+        display: flex;
+        flex-direction: column;
+        padding: initial;
+        align-items:flex-start;
+        justify-content: flex-end;
+        padding: 1rem;
+    }
+}
