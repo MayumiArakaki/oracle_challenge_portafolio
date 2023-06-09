@@ -251,11 +251,11 @@
                     <br>
                     Complete el siguiente formulario  y me pondré en contacto con usted lo antes posible.</p>
                 <form class="formulario" id="formulario" action="" method="post">
-                    <input type="text" name="nombre" placeholder="Nombre" id="nombre">
-                    <input type="email" name="email" placeholder="E-mail" id="email">
-                    <input type="text" name="asunto" placeholder="Asunto" id="asunto">
-                    <textarea class="mensaje" name="mensaje" placeholder="Mensaje" id="mensaje" cols="30" rows="10"></textarea>
-                    <button class="botonEnviar" id="botonEnviar" type="submit">Enviar mensaje</button>
+                    <input type="text" name="nombre" placeholder="Nombre" id="nombre" required>
+                    <input type="email" name="email" placeholder="E-mail" id="email" required>
+                    <input type="text" name="asunto" placeholder="Asunto" id="asunto" required>
+                    <textarea class="mensaje" name="mensaje" placeholder="Mensaje" id="mensaje" cols="30" rows="10" required></textarea>
+                    <button class="enviarBtn" id="enviarBtn" type="submit">Enviar mensaje</button>
                     <p class="alerta" id="alerta"></p>
                 </form>
             </div>
@@ -267,5 +267,6 @@
             <p>2023</p>
         </div>
     </footer>
+    <script src="assets/js/funcionalidad.js"></script>
 </body>
 </html>
